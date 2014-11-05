@@ -1,0 +1,8 @@
+{
+  "generator-reveal": {
+    "presentationTitle": "Good practices for BDD using Jasmine.",
+    "packageVersion": "0.1.0",
+    "useSass": true,
+    "deployToGithubPages": false
+  }
+}
