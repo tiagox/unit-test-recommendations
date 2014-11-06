@@ -1,4 +1,21 @@
 [
     "title.md",
-    "disclaimer.md"
+    "disclaimer.md",
+    "structure-of-a-test.md",
+    "remove-unnecessary-tests.md",
+    [
+        "test-behavior-instead-of-implementation-1.md",
+        "test-behavior-instead-of-implementation-2.md"
+    ],
+    "avoid-using-real-components-for-mocking.md",
+    "what-to-spy-mocking.md",
+    [
+        "use-local-variables-instead-of-li-global-scope-1.md",
+        "use-local-variables-instead-of-li-global-scope-2.md"
+    ],
+    "dont-create-things-you-wont-use.md",
+    "use-beforeeach-wisely.md",
+    "specs-should-be-code-examples.md",
+    "use-clean-fixtures.md",
+    "questions.md"
 ]
