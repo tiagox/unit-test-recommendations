@@ -89,7 +89,6 @@ module.exports = (grunt) ->
                     filter: 'isFile'
                 }]
 
-
         buildcontrol:
 
             options:
@@ -97,12 +96,11 @@ module.exports = (grunt) ->
                 commit: true
                 push: true
                 message: 'Built from %sourceCommit% on branch %sourceBranch%'
+
             pages:
                 options:
                     remote: 'git@github.com:tiagox/unit-test-recommendations'
                     branch: 'gh-pages'
-
-
 
     # Load all grunt tasks.
     require('load-grunt-tasks')(grunt)
@@ -151,13 +149,11 @@ module.exports = (grunt) ->
             'copy'
         ]
 
-
     grunt.registerTask 'deploy',
         'Deploy to Github Pages', [
             'dist'
             'buildcontrol'
         ]
-
 
     # Define default task.
     grunt.registerTask 'default', [
