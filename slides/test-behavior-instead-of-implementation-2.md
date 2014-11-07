@@ -14,7 +14,7 @@ describe('Some view', function () {
 
     someView.someMethodThatHideSomething();
 
-    expect($('.someElement')).not.toBeHidden();
+    expect($('.someElement')).toBeHidden();
   });
 
 });
