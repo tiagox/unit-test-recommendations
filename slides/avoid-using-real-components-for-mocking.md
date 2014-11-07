@@ -18,4 +18,4 @@ it('can be initialized by subclass', function() {
 });
 ```
 
-Also, test  the component directly.
+## Also, test  the component directly.
