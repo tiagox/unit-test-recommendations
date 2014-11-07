@@ -1,0 +1,23 @@
+##  Test behavior instead of implementation
+
+Please avoid this.
+
+```javascript
+describe('Some view', function () {
+  'use strict';
+
+  var fixture = readFixtures('fixture.txt'),
+    someView = new SomeView();
+
+  it('should hide some element if some method its called', function () {
+    $('body').html(fixture);
+
+    var spyOnHide = spyOn($.fn, hide);
+
+    someView.someMethodThatHideSomething();
+
+    expect(spyOnHide).toHaveBeenCalled();
+  });
+
+});
+```
