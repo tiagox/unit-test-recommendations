@@ -1,4 +1,4 @@
-unit-test-recommendations
+Unit Test Recommendations
 =========================
 
 Presentation of some recommendations about the usage of Jasmine as our testing framework.
